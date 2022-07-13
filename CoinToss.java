@@ -16,5 +16,10 @@ public class CoinToss {
             System.out.println("Round " + (i+1) + ": " + hand); 
         }
         System.out.println("Head: " + a + ", Tail: " + b);
+        if(a>b) { 
+            System.out.println("You won!");
+        } else {
+            System.out.println("You lost!");
+        }
     }
 }
