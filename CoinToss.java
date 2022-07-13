@@ -1,7 +1,12 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class CoinToss {
     public static void main(String args[]){
+        System.out.println("Who are you?");
+        Scanner sc = new Scanner(System.in);
+        String name = sc.next();
+        System.out.println("Hello, " + name + "!");
         int a=0,b=0;
         String[] hands = { "Head", "Tail" };
         Random random = new Random();
